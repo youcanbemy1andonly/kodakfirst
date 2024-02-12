@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<div class="navi_wrap">
+        <div class="navi">
+                <div><a class="brand" href="/">Vilebin</a></div>
+                <div class="navi_body" id="navi_body"><a class="active" href="/">Home</a>
+                <a  href="/post">Add Paste</a>
+                <a  href="/users">Users</a>
+                <a  href="/upgrades">Upgrades</a>
+                <a  href="/hoa">Hall of Autism</a>
+                <a  href="/tos">TOS</a>
+                <a target="_blank" href="https://t.me/vilebin">Telegram</a>
+            <div class="navi_right">
+                <a  href="/login">Login</a>
+                <a  href="/register">Register</a>
+            </div>
+        </div></div>
+    </div>    <div style="display: flex;justify-content: center;margin-top:20px">
+        <a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:10px" class="sidebar-logo" href="/"><pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|</pre></a>
+    </div>
+    <div class="alerts">
+    </div>
+    <center><h5 class="announcement a-1" style="color:#2AABEE"><div style="display:inline;color:green"><u><a style="color:inherit" href="https://discord.gg/vilebin">Official Vilebin Discord</a></u> (discord.gg/vilebin)</div><br><u><a style="color:inherit;" href="https://t.me/Vilebin">Official Vilebin Telegram</a></u> (t.me/vilebin)</h5><h5 class="announcement a-2" style="color:#CC0000;"><u> <a target="_blank" style="color:inherit;" href="https://t.me/vilebin/5">Mirrors: vilebin.net<br>Tor: vilebrb3higienbfbd7xad5qwpvoyc7fwfrn3dp2htzoisiqaaz7rvid.onion</a></u></h5></center>
+    <div class="search">
+        <div class="search_text">Search for a paste</div>
+        <div>
+            <form method="POST" action="" class="search_area">
+                <div style="margin-right:3px" class="input_container">
+                    <input type="text" required name="search" class="inpt" placeholder=" ">
+                    <div class="lbl">Search for...</div>
+                </div>
+                <button class="grey_btn" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="paginate_wrap">
+                <div class="showing_text">Showing 30 (of 30 total) pastes</div>                    </div>
+    </div>
+    <div class="pastes">
+        <div class="pinned">
+            <h6>Pinned Pastes</h6>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="3">Title</th>
+                        <th class="text-center auto-size" style="width: 105px;">Comments</th>
+                        <th class="text-center">Views</th>
+                        <th colspan="2" class="text-center">Created by</th>
+                        <th style="width: 120px" class="text-center r-hide">Added</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Vilebin Changelog" href="/paste/VilebinChangelog">Vilebin Changelog</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            1,011
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: #3838ff; font-weight: bold;" class="dox-username" title="carder" style="color: #2a9fd6;" href="/user/carder">carder [Mod]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">59 minutes ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="cordkiller" href="/paste/cordkiller">cordkiller</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            206
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Seemo" style="color: #2a9fd6;" href="/user/Seemo">Seemo [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#0c3b1a">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Vilebin Competition" href="/paste/VilebinCompetition">Vilebin Competition</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            1,011
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: #39ff14; font-weight: bold;" class="dox-username" title="valdz" style="color: #2a9fd6;" href="/user/valdz">valdz [Manager]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">2 days ago</td>
+                    </tr><tr data-test="" class="doxentry admin-post">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Transparency Report" href="/paste/TransparencyReport">Transparency Report</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            10,168
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: red; font-weight: bold;" class="dox-username" title="sup" style="color: #2a9fd6;" href="/user/sup">sup [Admin]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">6 months ago</td>
+                    </tr><tr data-test="" class="doxentry admin-post">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="How to Ensure Your Post Stays Up" href="/paste/HowtoEnsureYourPostStaysUp">How to Ensure Your Post Stays Up</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            36,954
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: red; font-weight: bold;" class="dox-username" title="Water" style="color: #2a9fd6;" href="/user/Water">Water [Admin]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">6 months ago</td>
+                    </tr>                </tbody>
+            </table>
+        </div>
+        <div class="normal">
+            <table class="table table-striped table-hover" style="margin-top: 0px;">
+                <thead>
+                    <tr>
+                        <th colspan="3">Title</th>
+                        <th class="clickable text-center auto-size" id="commentsorder" style="width: 105px;">Comments</th>
+                        <th class="clickable text-center auto-size" id="viewsorder">Views </th>
+                        <th colspan="2" class="text-center">Created by</th>
+                        <th class="clickable text-center r-hide" id="dateorder" style="width: 120px">Added </th>
+                    </tr>
+                </thead>
+                <tbody>
+<tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Vilebin Changelog" href="/paste/VilebinChangelog">Vilebin Changelog</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            1,011
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: #3838ff; font-weight: bold;" class="dox-username" title="carder" style="color: #2a9fd6;" href="/user/carder">carder [Mod]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">59 minutes ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="lovleyperi mrbeast fucked" href="/paste/lovleyperimrbeastfucked">lovleyperi mrbeast fucked</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            28
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="Anonymous" style="text-decoration:none!important">Anonymous</a></td>
+                        <td style="width: 120px" class="text-center r-hide">5 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="chris the tranny fag from mrebeast" href="/paste/christhetrannyfagfrommrebeast">chris the tranny fag from mrebeast</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            1
+                        </td>
+                        <td class="text-center">
+                            28
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="Anonymous" style="text-decoration:none!important">Anonymous</a></td>
+                        <td style="width: 120px" class="text-center r-hide">5 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Azaan Skid" href="/paste/AzaanSkid">Azaan Skid</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            9
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="immigrant" style="color: #2a9fd6;" href="/user/immigrant">immigrant</a></td>
+                        <td style="width: 120px" class="text-center r-hide">12 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Ghoul_NateLeeper" href="/paste/GhoulNateLeeper">Ghoul_NateLeeper</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            3
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="bird" style="color: #2a9fd6;" href="/user/bird">bird</a></td>
+                        <td style="width: 120px" class="text-center r-hide">14 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="SpeedyGabriel_GabrielSolomes" href="/paste/SpeedyGabrielGabrielSolomes">SpeedyGabriel_GabrielSolomes</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            9
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="bird" style="color: #2a9fd6;" href="/user/bird">bird</a></td>
+                        <td style="width: 120px" class="text-center r-hide">14 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Harm801_JakeNaegele" href="/paste/Harm801JakeNaegele">Harm801_JakeNaegele</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            4
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="bird" style="color: #2a9fd6;" href="/user/bird">bird</a></td>
+                        <td style="width: 120px" class="text-center r-hide">14 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="IceBear_JustinAntoine" href="/paste/IceBearJustinAntoine">IceBear_JustinAntoine</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            4
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="bird" style="color: #2a9fd6;" href="/user/bird">bird</a></td>
+                        <td style="width: 120px" class="text-center r-hide">14 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="GTR_MiralemBehmen" href="/paste/GTRMiralemBehmen">GTR_MiralemBehmen</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            7
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="bird" style="color: #2a9fd6;" href="/user/bird">bird</a></td>
+                        <td style="width: 120px" class="text-center r-hide">14 hours ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="FNTClout" href="/paste/FNTClout">FNTClout</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            91
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Sinister" style="color: #2a9fd6;" href="/user/Sinister">Sinister [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">21 hours ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="0x3 Woke2Tact ( Updated dox )" href="/paste/0x3Woke2TactUpdateddox">0x3 Woke2Tact ( Updated dox )</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            1
+                        </td>
+                        <td class="text-center">
+                            144
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="ATKFenan" style="color: #2a9fd6;" href="/user/ATKFenan">ATKFenan</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Spartor" href="/paste/Spartor">Spartor</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            128
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Seemo" style="color: #2a9fd6;" href="/user/Seemo">Seemo [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="movement / paradoxware" href="/paste/movementparadoxware">movement / paradoxware</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            120
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Seemo" style="color: #2a9fd6;" href="/user/Seemo">Seemo [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Lee" href="/paste/Lee">Lee</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            133
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Renzy" style="color: #2a9fd6;" href="/user/Renzy">Renzy [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="0000001 RdRacing17" href="/paste/0000001RdRacing17">0000001 RdRacing17</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            146
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Renzy" style="color: #2a9fd6;" href="/user/Renzy">Renzy [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="cordkiller" href="/paste/cordkiller">cordkiller</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            206
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Seemo" style="color: #2a9fd6;" href="/user/Seemo">Seemo [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:rgb(17, 49, 70)">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="CompaDavid (Reposted)" href="/paste/CompaDavidReposted">CompaDavid (Reposted)</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            271
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="Tankz" style="color: #2a9fd6;" href="/user/Tankz">Tankz [Council]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:rgb(17, 49, 70)">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="0x11 Darren Watkins IShowSpeed" href="/paste/0x11DarrenWatkinsIShowSpeed">0x11 Darren Watkins IShowSpeed</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            2
+                        </td>
+                        <td class="text-center">
+                            254
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="fakemirrr" style="color: #2a9fd6;" href="/user/fakemirrr">fakemirrr [Council]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Dubi" href="/paste/Dubi">Dubi</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            257
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Sinister" style="color: #2a9fd6;" href="/user/Sinister">Sinister [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#2b0c1e">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Johnny Bell Tier 3 Sex Offender" href="/paste/JohnnyBellTier3SexOffender">Johnny Bell Tier 3 Sex Offender</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            1
+                        </td>
+                        <td class="text-center">
+                            264
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="endzoned" style="color: #2a9fd6;" href="/user/endzoned">endzoned [Criminal]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#2b0c1e">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Big pedophile slut" href="/paste/Bigpedophileslut">Big pedophile slut</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            358
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="endzoned" style="color: #2a9fd6;" href="/user/endzoned">endzoned [Criminal]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#2b0c1e">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Beam Full Dox" href="/paste/BeamFullDox">Beam Full Dox</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            239
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="endzoned" style="color: #2a9fd6;" href="/user/endzoned">endzoned [Criminal]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#2b0c1e">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="yazukiii" href="/paste/yazukiii">yazukiii</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            212
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="endzoned" style="color: #2a9fd6;" href="/user/endzoned">endzoned [Criminal]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:rgb(17, 49, 70)">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Napalm (DH OWNER)" href="/paste/NapalmDHOWNER">Napalm (DH OWNER)</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            275
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="compmd" style="color: #2a9fd6;" href="/user/compmd">compmd [Council]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:rgb(17, 49, 70)">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="ATKFENAN (reupload)" href="/paste/ATKFENANreupload">ATKFENAN (reupload)</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            0
+                        </td>
+                        <td class="text-center">
+                            267
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="Tankz" style="color: #2a9fd6;" href="/user/Tankz">Tankz [Council]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="0x2 Dallen Real DOX" href="/paste/0x2DallenRealDOX">0x2 Dallen Real DOX</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            1
+                        </td>
+                        <td class="text-center">
+                            484
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a class="dox-username" title="ATKFenan" style="color: #2a9fd6;" href="/user/ATKFenan">ATKFenan</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#3e3704">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Jake Paul" href="/paste/JakePaul">Jake Paul</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            3
+                        </td>
+                        <td class="text-center">
+                            476
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;" class="dox-username" title="Sinister" style="color: #2a9fd6;" href="/user/Sinister">Sinister [Rich]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">1 day ago</td>
+                    </tr><tr data-test="" class="doxentry" style="background-color:#0c3b1a">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Vilebin Competition" href="/paste/VilebinCompetition">Vilebin Competition</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            1,011
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: #39ff14; font-weight: bold;" class="dox-username" title="valdz" style="color: #2a9fd6;" href="/user/valdz">valdz [Manager]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">2 days ago</td>
+                    </tr><tr data-test="" class="doxentry admin-post">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="Transparency Report" href="/paste/TransparencyReport">Transparency Report</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            10,168
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: red; font-weight: bold;" class="dox-username" title="sup" style="color: #2a9fd6;" href="/user/sup">sup [Admin]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">6 months ago</td>
+                    </tr><tr data-test="" class="doxentry admin-post">
+                        <td colspan="3" style="overflow: hidden;text-overflow: ellipsis;">
+                            <a title="How to Ensure Your Post Stays Up" href="/paste/HowtoEnsureYourPostStaysUp">How to Ensure Your Post Stays Up</a>
+                        </td>
+                        <td style="width: 105px;" class="text-center">
+                            -
+                        </td>
+                        <td class="text-center">
+                            36,954
+                        </td>
+                        <td colspan="2" style="padding-bottom: 0; max-width: 140px;" class="text-center"><a style="color: red; font-weight: bold;" class="dox-username" title="Water" style="color: #2a9fd6;" href="/user/Water">Water [Admin]</a></td>
+                        <td style="width: 120px" class="text-center r-hide">6 months ago</td>
+                    </tr>                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="paginate_wrap">
+            <div class="showing_text">Showing 30 (of 30 total) pastes</div>    </div>
+</body>
+</html>

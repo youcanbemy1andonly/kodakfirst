@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+        textarea {
+            overflow: auto;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="table">
+            <div class="sidebar" style="text-align: center;padding-top: 0">
+				<form method="POST">
+				<a style="color:white;line-height:1.1em;font-weight: bold;text-decoration:none!important;text-align:center;font-size:10px" class="sidebar-logo" href="/">
+				<pre>__      __ _  _        _      _        
+\ \    / /(_)| |      | |    (_)       
+ \ \  / /  _ | |  ___ | |__   _  _ __  
+  \ \/ /  | || | / _ \| '_ \ | || '_ \ 
+   \  /   | || ||  __/| |_) || || | | |
+    \/    |_||_| \___||_.__/ |_||_| |_|
+                                       </pre>
+				</a>
+                <div class="options">
+                    <p style="text-align: center;"><a style="color: #2a9fd6;" href="/register">Create an account</a> to manage your pastes</p>                    <p style="color:red;text-align: center;font-size:15px;text-decoration:underline;"><a href="/tos" target="_blank" style="font-weight:bold;color: red;">READ TOS BEFORE POSTING.</a><br></p>
+                    <h3>Title:</h3>
+                    <div style="margin-right:3px;margin-top:-5px;" class="input_container">
+                        <input style="width: 100%;" type="text" required name="n" class="inpt" placeholder=" " maxlength="80" value="">
+                        <div class="lbl">Paste title (no special chars)</div>
+                    </div>
+		    <div style="display:flex;align-items: center;">
+                        <img src="data:image/png;base64,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" style="margin-right:8px;margin-bottom:8px;width:50%;"><input style="width:50%" class="inpt" type="text" name="post_captcha" placeholder="Captcha">
+                    </div>
+                </div>
+                <input type="hidden" id="notify-followers" value="off">
+                <div class="options">
+                    <ul>
+                        <li><input type="submit" id="create-paste" value="Create" class="btn"></li>
+                        <li><input type="reset" value="Clear" class="btn"></li>
+                    </ul>
+                </div>
+                <p>Please note that all posted information is publicly available and must follow our <a href="/tos" style="text-decoration: underline;">TOS.</a></p>
+            </div>
+            <div class="editor-container" style="padding-left: 20px;">
+                <textarea name="c" id="paste-content" class="editor mousetrap" required wrap="off" placeholder="READ OUR TERMS OF SERVICE BEFORE CREATING A POST. Pastes that break TOS will be removed.
+READ OUR TERMS OF SERVICE BEFORE CREATING A POST. Pastes that break TOS will be removed.
+READ OUR TERMS OF SERVICE BEFORE CREATING A POST. Pastes that break TOS will be removed."></textarea>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

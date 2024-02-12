@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilebin - Upgrades</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/icons.css">
+</head>
+<body>
+<div class="navi_wrap">
+        <div class="navi">
+                <div><a class="brand" href="/">Vilebin</a></div>
+                <div class="navi_body" id="navi_body"><a  href="/">Home</a>
+                <a  href="/post">Add Paste</a>
+                <a  href="/users">Users</a>
+                <a class="active" href="/upgrades">Upgrades</a>
+                <a  href="/hoa">Hall of Autism</a>
+                <a  href="/tos">TOS</a>
+                <a target="_blank" href="https://t.me/vilebin">Telegram</a>
+            <div class="navi_right">
+                <a  href="/login">Login</a>
+                <a  href="/register">Register</a>
+            </div>
+        </div></div>
+    </div>    <div class="upgrades_wrap">
+        <div class="center">
+            <h4 style="font-size: 26px;font-weight: normal;color: white;margin:10px 0">Upgrades</h4>
+        </div>
+        <div class="info-container">
+            <span><u>Purchases are final and non-refundable and cannot be transferred.</u><br>
+            We do not accept Cash App, Zelle, Venmo, PayPal or gift cards - only cryptocurrency, preferably in bitcoin or monero. Purchasing with other cryptocurrencies might cost more.<br>Violations of TOS will result in account suspension - whether you have a rank or not.<br>
+           To purchase, contact <a href="http://t.me/realrenzy">@realrenzy</a> on Telegram.<br>
+        </div>
+        <div class="wrap_upgrades">
+			<div class="upgrade-container">
+				<div class="upgrade-name vip-title">
+					VIP
+					<div class="upgrade-price">$15</div>
+				</div>
+				<div class="perk-title">Perks</div>
+				<div class="upgrade-description">
+                    <div class="u-perk">
+					<span>Username preview</span><span class="val" style="color: #9B318E;font-weight:bold;"><span class="preview-name">Anonymous</span> [VIP]</span>
+					</div>
+                    <div class="u-perk">
+					<span>Name color</span><span class="val" style="color: #9B318E;">Light purple</span>
+					</div>
+                    <div class="u-perk">
+					<span>Paste highlight color</span><span class="val" style="color: #9B318E;">Light purple</span>
+					</div>
+                    <div class="u-perk">
+					<span>More noticeable</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span>.GIF profile picture</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+                                        <span>Bypass captchas</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+                                        </div>
+                    <div class="u-perk">
+					<span title="Gives you the ability to edit your pastes">Edit your pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Unlist pastes to stop them from showing publicly. Only people with the link can view it.">Unlist your own pastes</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private pastes that you've created. Only you can view it.">Private your own pastes</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private your paste with a password">Password protected pastes</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+					</div>
+                </div>
+                <div class="purchase">
+                    <a href="http://t.me/realrenzy" id="2" class="purchase-button bitcoin">Purchase</a>
+                </div>
+			</div>
+			<div class="upgrade-container">
+				<div class="upgrade-name criminal-title">
+					Criminal
+					<div class="upgrade-price">$30</div>
+				</div>
+				<div class="perk-title">Perks</div>
+				<div class="upgrade-description">
+                    <div class="u-perk">
+					<span>Username preview</span><span class="val" style="color: #780A48;font-weight:bold;"><span class="preview-name">Anonymous</span> [Criminal]</span>
+					</div>
+                    <div class="u-perk">
+					<span>Name color</span><span class="val" style="color: #780A48;">Dark purple</span>
+					</div>
+                    <div class="u-perk">
+					<span>Paste highlight color</span><span class="val" style="color: #780A48;">Dark purple</span>
+					</div>
+                    <div class="u-perk">
+					<span>More noticeable</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span>.GIF profile picture</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+                                        <span>Bypass captchas</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+                                        </div>
+                    <div class="u-perk">
+					<span title="Gives you the ability to edit your pastes">Edit your pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Unlist pastes to stop them from showing publicly. Only people with the link can view it.">Unlist your own pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private pastes that you've created. Only you can view it.">Private your own pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private your paste with a password">Password protected pastes</span><span class="val" style="color: red;"><i class="fa fa-times"></i></span>
+					</div>
+                </div>
+                <div class="purchase">
+                    <a href="http://t.me/realrenzy" id="3" class="purchase-button bitcoin">Purchase</a>
+                </div>
+			</div>
+			<div class="upgrade-container">
+				<div class="upgrade-name rich-title">
+					Rich
+					<div class="upgrade-price">$50</div>
+				</div>
+				<div class="perk-title">Perks</div>
+				<div class="upgrade-description">
+                    <div class="u-perk">
+					<span>Username preview</span><span class="val" style="color: gold;background-image: url('/assets/media/gold.gif');font-weight:bold;"><span class="preview-name">Anonymous</span> [Rich]</span>
+					</div>
+                    <div class="u-perk">
+					<span>Name color</span><span class="val" style="color: gold;background-image: url('/assets/media/gold.gif');">Sparkling gold</span>
+					</div>
+                    <div class="u-perk">
+					<span>Paste highlight color</span><span class="val" style="color: gold;">Gold</span>
+					</div>
+                    <div class="u-perk">
+					<span>More noticeable</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span>.GIF profile picture</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+                                        <span>Bypass captchas</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+                                        </div>
+                    <div class="u-perk">
+					<span title="Gives you the ability to edit your pastes">Edit your pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Unlist pastes to stop them from showing publicly. Only people with the link can view it.">Unlist your own pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private pastes that you've created. Only you can view it.">Private your own pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                    <div class="u-perk">
+					<span title="Private your paste with a password">Password protected pastes</span><span class="val" style="color: green;"><i class="fa fa-check"></i></span>
+					</div>
+                </div>
+                <div class="purchase">
+                    <a href="http://t.me/realrenzy" id="4" class="purchase-button bitcoin">Purchase</a>
+                </div>
+			</div>
+		</div>
+						<div class="wrap_upgrades">
+			<div class="upgrade-container" style="max-height:100px!important">
+				<div class="upgrade-name" style="background-image: linear-gradient(120deg, #004eff 65%, #005dff 65% 100%);">
+					Custom username color
+					<div class="upgrade-price">$10</div>
+				</div><center><b>Contact <a href="https://t.me/realrenzy">@realrenzy</a> for a custom color.<br>You pay every time you change it.</b></center></div></div>
+    </div>
+</body>
+</html>
